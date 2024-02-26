@@ -11,6 +11,9 @@
 		9E6575492B8CF55A00255C1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6575482B8CF55A00255C1E /* ContentView.swift */; };
 		9E65754B2B8CF55D00255C1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E65754A2B8CF55D00255C1E /* Assets.xcassets */; };
 		9E65754E2B8CF55D00255C1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E65754D2B8CF55D00255C1E /* Preview Assets.xcassets */; };
+		9E6575552B8CF79200255C1E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6575542B8CF79200255C1E /* OnboardingView.swift */; };
+		9E6575572B8CF86200255C1E /* OnboardingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6575562B8CF86200255C1E /* OnboardingCardView.swift */; };
+		9E6575592B8D01E600255C1E /* OnboardingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6575582B8D01E600255C1E /* OnboardingData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		9E6575482B8CF55A00255C1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E65754A2B8CF55D00255C1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E65754D2B8CF55D00255C1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9E6575542B8CF79200255C1E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		9E6575562B8CF86200255C1E /* OnboardingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCardView.swift; sourceTree = "<group>"; };
+		9E6575582B8D01E600255C1E /* OnboardingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				9E6575482B8CF55A00255C1E /* ContentView.swift */,
 				9E65754A2B8CF55D00255C1E /* Assets.xcassets */,
 				9E65754C2B8CF55D00255C1E /* Preview Content */,
+				9E6575542B8CF79200255C1E /* OnboardingView.swift */,
+				9E6575562B8CF86200255C1E /* OnboardingCardView.swift */,
+				9E6575582B8D01E600255C1E /* OnboardingData.swift */,
 			);
 			path = "SwiftUI Game";
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E6575552B8CF79200255C1E /* OnboardingView.swift in Sources */,
+				9E6575592B8D01E600255C1E /* OnboardingData.swift in Sources */,
 				9E6575492B8CF55A00255C1E /* ContentView.swift in Sources */,
 				9E6575472B8CF55A00255C1E /* SwiftUI_GameApp.swift in Sources */,
+				9E6575572B8CF86200255C1E /* OnboardingCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
