@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct OnboardingView: View {
+    
+    let items: [OnboardingItem] = onboardingData
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            ForEach(items) { item in
+                OnboardingCardView(item: item)
+            }
+        }
+        .tabViewStyle(PageTabViewStyle())
     }
 }
 

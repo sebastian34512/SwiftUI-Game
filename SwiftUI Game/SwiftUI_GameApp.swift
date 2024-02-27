@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct SwiftUI_GameApp: App {
+    
+    @AppStorage("isDoneOnboarding") var isDoneOnboarding: Bool = false; // = false passiert nur wenn im Storage nix ist
+    
     var body: some Scene {
         WindowGroup {
-            OnboardingView()
+            if !isDoneOnboarding {
+                OnboardingView()
+            } else {
+                GameView()
+            }
+            
         }
     }
 }
