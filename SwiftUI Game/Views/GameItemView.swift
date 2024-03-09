@@ -9,23 +9,20 @@ import SwiftUI
 
 struct GameItemView: View {
     
-    @ObservedObject var viewModel = GameItemViewModel()
-    
-    let posX: CGFloat = CGFloat.random(in: 1...400)
-    var posY: CGFloat = -100
+    var gameItem: GameItem
     
     var body: some View {
-        Image(viewModel.gameItem!.image)
+        Image(gameItem.image)
             .resizable()
             .scaledToFit()
-            .frame(width: viewModel.gameItem!.width)
+            .frame(width: gameItem.width)
         
-        if viewModel.isCollided {
+        if gameItem.isCollided {
             // Kollision Erkennen
         }
     }
 }
 
 #Preview {
-    GameItemView()
+    GameItemView(gameItem: GameItem(points: 30, width: 30, image: "cola"))
 }

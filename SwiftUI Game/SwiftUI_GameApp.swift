@@ -17,7 +17,7 @@ struct SwiftUI_GameApp: App {
             if !isDoneOnboarding {
                 OnboardingView()
             } else {
-                GameView()
+                ContentView()
             }
             
         }
